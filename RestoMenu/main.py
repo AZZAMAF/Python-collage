@@ -16,6 +16,7 @@ print("Menu Perintah:")
 print("- ketik '0' untuk cek menu ")
 print("- ketik '1' untuk memilih menu ")
 print("- ketik '2' untuk hitung total belanja dan keluar")
+print("- ketik '3' Kurangi menu")
 
 # total menu// total price // selected meny\
 
@@ -65,6 +66,18 @@ while True:
             for menu in MenuCostumer:
                 price = menu['harga']
                 total_price += price
-            print(f'total harga :: Rp{total_price:,}')            
+            print(f'total harga :: Rp{total_price:,}')  
+            
+        case'3':
+            total_price = 0
+            input_delete = int(input('Masukan No Menu yanng akan di hapus?'))
+            for menu in MenuCostumer:
+                no_menu = menu['nomor']
+                if input_delete == no_menu :
+                    MenuCostumer.remove(menu)
+                    print(f"{menu['nomor']}. {menu['nama']} - Rp{menu['harga']:,} berhasil dihapus dari menu.")
+            if input_delete > 10:
+                    print("-> Maaf, Mennu tersebut tidak tersedia.")
+                         
         case _:
             print('not found action')
