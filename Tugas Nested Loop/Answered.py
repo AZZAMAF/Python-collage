@@ -97,6 +97,8 @@ for h in range(n):
     print()  
 
 
+
+
 print('Soal 6: Piramida Angka ')
 print('='*30)
 for i in range(1,10, +1):

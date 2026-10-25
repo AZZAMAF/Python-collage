@@ -10,7 +10,7 @@ data_kg = [800, 500, 400, 200]
 #             tombol_darurat = int(input('Tombol Darurat : '))
 #             total_berat += data_kg[d] 
 #             print(f'Total berat kendaraan {total_berat}')
-#             print(f"Jumlah truck yang lolos :{d}")    
+#             print(f"Jumlah truck yang lolos :{d}")        
     
 #     break
  

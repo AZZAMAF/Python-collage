@@ -1,3 +1,4 @@
+
 menu_makanan = [
     {"nomor": 1, "nama": "Nasi Goreng", "harga": 15000},
     {"nomor": 2, "nama": "Mie Goreng", "harga": 12000},
@@ -10,6 +11,8 @@ menu_makanan = [
     {"nomor": 9, "nama": "Burger", "harga": 25000},
     {"nomor": 10, "nama": "Pizza", "harga": 35000}
 ]
+
+tambah = functionn.add(10, 20)
 
 print("=== Menu warunng makjo ===")
 print("Menu Perintah:")
